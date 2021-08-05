@@ -1,0 +1,14 @@
+<resourcebundle>
+	<resource id="SR_001">
+		<error-code>400</error-code>
+		<groupName>ontId,ontPort</groupName>
+		<key>instance type string does not match any allowed primitive type allowed integer number</key>
+		<value>enter proper String </value>
+	</resource>
+	<resource id="SR_002">
+		<error-code>400</error-code>
+		<groupName>sTag,cTag,dataCos</groupName>
+		<key>object has missing required properties</key>
+		<value>key is missing</value>
+	</resource>
+</resourcebundle>

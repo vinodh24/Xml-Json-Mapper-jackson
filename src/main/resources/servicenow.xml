@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refreshResponse>
+   <jsonResponse vendor="Adtran" model="TA 5000" clli="LCTA5000" scp="1-1-1" ontId="1" ontPort="1">
+      <status code="200" />
+      <message>service configured on vinodh/1-1-1-1-1.</message>
+      <clli>vinodh</clli>
+      <deviceIP>10.0.16.241</deviceIP>
+      <scp>["1-4-1"]</scp>
+      <vendor>vinodh</vendor>
+      <model>TA 5000</model>
+      <telephoneNumber>1234512345</telephoneNumber>
+      <cos>10/7P</cos>
+      <assignedTech>GPON</assignedTech>
+      <pon>
+         <ontId>1</ontId>
+         <ontPort>1</ontPort>
+         <addlParams>
+            <registrationId>1234532171</registrationId>
+         </addlParams>
+      </pon>
+      <data>
+         <sTag>3910</sTag>
+         <cTag>3523</cTag>
+         <dataCos>10/7P</dataCos>
+         <addlParams>
+            <dataSlanXlateId>131</dataSlanXlateId>
+            <dataVlanXlateId>141</dataVlanXlateId>
+         </addlParams>
+      </data>
+      <video>
+         <sTag>3910</sTag>
+         <cTag>3523</cTag>
+         <videoCos>10/7P</videoCos>
+         <addlParams>
+            <rtraid>1231</rtraid>
+            <videoSlanXlateId>131</videoSlanXlateId>
+            <videoVlanXlateId>141</videoVlanXlateId>
+         </addlParams>
+      </video>
+      <voice>
+         <type>TDM</type>
+         <sTag>3910</sTag>
+         <crv>3523</crv>
+         <addlParams>
+            <aor>N1-1-G1-1</aor>
+            <interfaceGroupName>test</interfaceGroupName>
+            <slotVoice>1</slotVoice>
+            <voiceSlanXlateId>131</voiceSlanXlateId>
+            <voiceVlanXlateId>141</voiceVlanXlateId>
+         </addlParams>
+      </voice>
+   </jsonResponse>
+   <jsonResponse vendor="Adtran" model="TA 5000" clli="LCTA5000" scp="1-1-2" ontId="1" ontPort="1">
+      <status code="200" />
+      <message>service configured on LCTA5000/1-1-1-2-1.</message>
+      <clli>LCTA5000</clli>
+      <deviceIP>10.0.16.241</deviceIP>
+      <scp>["1-4-1"]</scp>
+      <vendor>Adtran</vendor>
+      <model>TA 5000</model>
+      <telephoneNumber>1234512345</telephoneNumber>
+      <cos>10/7P</cos>
+      <assignedTech>GPON</assignedTech>
+      <pon>
+         <ontId>1</ontId>
+         <ontPort>1</ontPort>
+         <addlParams>
+            <registrationId>1234532171</registrationId>
+         </addlParams>
+      </pon>
+      <data>
+         <sTag>3910</sTag>
+         <cTag>3523</cTag>
+         <dataCos>10/7P</dataCos>
+         <addlParams>
+            <dataSlanXlateId>131</dataSlanXlateId>
+            <dataVlanXlateId>141</dataVlanXlateId>
+         </addlParams>
+      </data>
+      <video>
+         <sTag>3910</sTag>
+         <cTag>3523</cTag>
+         <videoCos>10/7P</videoCos>
+         <addlParams>
+            <rtraid>1231</rtraid>
+            <videoSlanXlateId>131</videoSlanXlateId>
+            <videoVlanXlateId>141</videoVlanXlateId>
+         </addlParams>
+      </video>
+      <voice>
+         <type>TDM</type>
+         <sTag>3910</sTag>
+         <crv>3523</crv>
+         <addlParams>
+            <aor>N1-1-G1-1</aor>
+            <interfaceGroupName>test</interfaceGroupName>
+            <slotVoice>1</slotVoice>
+            <voiceSlanXlateId>131</voiceSlanXlateId>
+            <voiceVlanXlateId>141</voiceVlanXlateId>
+         </addlParams>
+      </voice>
+   </jsonResponse>
+</refreshResponse>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refreshPon>
+   <ponResponse vendor="vinodh" model="TA 5000" clli="LCTA5000" pon="1-1-1" deviceIP="10.0.16.241">
+      <status code="200" />
+      <message>service configured on LCTA5000/1-1-1-1-1.</message>
+      <ponDetails>
+           <ontId>1</ontId>
+          <serialNumber>97177</serialNumber>       
+          <registrationId>11111111</registrationId>
+          <operationalStatus>In-service-normal</operationalStatus>
+          <model>@ONT763G</model>
+      </ponDetails>
+      <ponDetails>
+           <ontId>2</ontId>
+          <serialNumber>22222</serialNumber>       
+          <operationalStatus>In-service-normal</operationalStatus>
+          <model>@ONT763G</model>
+      </ponDetails>
+      <ponDetails>
+           <ontId>3</ontId>
+          <serialNumber>333333</serialNumber>       
+          <operationalStatus>In-service-normal</operationalStatus>
+          <model>@ONT763G</model>
+      </ponDetails>
+   </ponResponse>
+</refreshPon>

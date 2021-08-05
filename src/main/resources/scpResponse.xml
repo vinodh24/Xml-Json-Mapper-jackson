@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scp>
+   <jsonScpResponse  model="C7" clli="GDTPKSLAB01" scp="1-1-1" deviceIP="10.0.16.241">
+      <status code="200" />
+      <vendor>Calix</vendor>
+      <model>C7</model>
+      <ems>newstin</ems>
+      <deviceIP>10.0.16.241</deviceIP>
+      <portName>["1-4-1"]</portName>
+      <deviceName>N1-GDTPKSLAB01</deviceName>
+      <portType>pon</portType>
+   </jsonScpResponse>
+</scp>

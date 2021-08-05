@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refreshONT>
+	<ontResponse vendor="vinodh" model="C7" clli="GDTPKSLAB01" pon="1-1-1" deviceIP="10.0.16.241" ontId="1">
+		<status code="200" />
+		<message>ONT Ports successfully retrieved on GDTPKSLAB01/1-1-1-1.</message>
+		<ontDetails>
+			<ontPort>1</ontPort>
+			<portType>Ethernet</portType>
+			<serviceType>data</serviceType>
+			<telephoneNumber>1234512345</telephoneNumber>
+			<dataCos>10/7P</dataCos>
+			<sTag>101</sTag>
+			<cTag>102</cTag>
+		</ontDetails>
+		<ontDetails>
+			<ontPort>1</ontPort>
+			<portType>Ethernet</portType>
+			<serviceType>video</serviceType>
+			<telephoneNumber>1234512345</telephoneNumber>
+			<videoCos>3.0/6P</videoCos>
+			<sTag>101</sTag>
+			<cTag>102</cTag>
+		</ontDetails>
+		<ontDetails>
+			<ontPort>1</ontPort>
+			<portType>Voice</portType>
+			<serviceType>Voice</serviceType>
+			<telephoneNumber>1234512345</telephoneNumber>
+			<type>TDM</type>
+			<sTag>101</sTag>
+			<cTag>102</cTag>
+		</ontDetails>
+	</ontResponse>
+</refreshONT>

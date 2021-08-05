@@ -1,0 +1,127 @@
+{
+  "params": [
+    {
+      "key": "clli",
+      "description": "Target Identifier"
+    },
+    {
+      "key": "scp",
+      "description": "PortName"
+    },
+    {
+      "key": "scp[]",
+      "description": "List of PortNames"
+    },
+    {
+      "key": "portAdminState",
+      "defaultValue": "enable",
+      "description": "State of port",
+      "validValues": [
+        "enable",
+        "disable"
+      ]
+    },
+    {
+      "key": "serviceMode",
+      "defaultValue": "MULTIMODE",
+      "description": "ADSL MODE",
+      "validValues": [
+        "ADSL2+",
+        "MULTIMODE"
+      ]
+    },
+    {
+      "key": "portProfile",
+      "description": "Port Profile"
+    },
+    {
+      "key": "vpi",
+      "defaultValue": "8",
+      "description": "VIRTUAL PATH IDENTIFIER"
+    },
+    {
+      "key": "vci",
+      "defaultValue": "35",
+      "description": "VIRTUAL CIRCUIT IDENTIFIER"
+    },
+    {
+      "key": "vlanMode",
+      "defaultValue": "ADDSC",
+      "description": "The VLAN handling mode. "
+    },
+    {
+      "key": "uppCpedit",
+      "defaultValue": "SET",
+      "description": "Upstream PCP edit action"
+    },
+    {
+      "key": "dhcpOption82",
+      "defaultValue": "DISABLED",
+      "description": "DHCP OPTION 82"
+    },
+    {
+      "key": "subscriberClassification",
+      "defaultValue": "UNTAGGED",
+      "description": "Subscriber traffic classification"
+    },
+    {
+      "key": "subPriority",
+      "defaultValue": "0",
+      "description": "The subscriber-side ingress priority. "
+    },
+    {
+      "key": "netPriority",
+      "defaultValue": "1",
+      "decription": "The network-side ingress priority."
+    },
+    {
+      "key": "dnpcpEdit",
+      "defaultValue": "NONE",
+      "description": "Downstream PCP edit action"
+    },
+    {
+      "key": "remoteAendPG",
+      "description": "The network-side link."
+    },
+    {
+      "key": "trafficProfile",
+      "description": "Traffic Profile"
+    }
+  ],
+  "technologyMap": [
+    {
+      "assignedTech": "ADSL",
+      "data.isData": true,
+      "data.isVideo": false,
+      "data.isVoice": false,
+      "data.addlParams.crossConnects": "remote",
+      "technology": "ADSL2_SINGLELINE_HSI_remote"
+    },
+    {
+      "assignedTech": "ADSL",
+      "data.isData": true,
+      "data.isVideo": false,
+      "data.isVoice": false,
+      "data.addlParams.crossConnects": "master",
+      "technology": "ADSL2_SINGLELINE_HSI_master"
+    },
+    {
+      "assignedTech": "ADSL",
+      "data.isData": true,
+      "data.isVideo": false,
+      "data.isVoice": false,
+      "data.atm": true,
+      "data.addlParams.crossConnects": "remote",
+      "technology": "ADSL2_ATM_SINGLELINE_HSI_remote"
+    },
+    {
+      "assignedTech": "ADSL",
+      "data.isData": true,
+      "data.isVideo": false,
+      "data.isVoice": false,
+      "data.atm": true,
+      "data.addlParams.crossConnects": "master",
+      "technology": "ADSL2_ATM_SINGLELINE_HSI_master"
+    }
+  ]
+}
